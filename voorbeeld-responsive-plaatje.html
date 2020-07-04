@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- bron:
+        https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+-->
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Voorbeeld responsive plaatje</title>
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        href="favicon.png"
+    />
+    
+</head>
+
+<body>
+    <h2>Meerkoetjes zien er lief uit</h2>
+    <br />
+
+    <img srcset='meerkoet_480w.jpg 480w,
+                 meerkoet_800w.jpg 800w'
+         sizes='(max-width: 600px) 480px,
+                800px'
+         src='meerkoet_800w.jpg'
+         alt='meerkoet voedt jonkie' />
+
+</body>
+
+<html>
