@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue ;
+    margin-left: 50px ;
+}
+
+#verzenden {
+    border: 0px ;
+}
+
+.foutmelding_contact_forumulier {
+    color: red;
+}
+
+.nopadding {
+    padding: 0px ;
+    border-width: 0px; 
+    margin:0px ; 
+/*    background-color: yellow ; */
+}
+
+.noborderspacing {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.extra-ruimte-na-image {
+    margin-top: 25px ;
+}
